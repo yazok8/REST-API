@@ -11,8 +11,6 @@ const app = express()
 
 app.use(express.json())
 
-// const router = express.Router()
-
 //find all books and find books by keyword
 app.get('/books', async (req, res) => {
   try {
